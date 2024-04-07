@@ -2,5 +2,5 @@ flask_login
 flask
 gunicorn
 flask_sqlalchemy
-werkzeug.security
+werkzeug
 sqlalchemy

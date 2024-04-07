@@ -1,2 +1,6 @@
-Flask
+flask_login
+flask
 gunicorn
+flask_sqlalchemy
+werkzeug.security
+sqlalchemy

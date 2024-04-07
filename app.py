@@ -2,9 +2,9 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager
 from os import path
-from .views import views
-from .auth import auth
-from .models import User, Post, Comment, Like
+from .Website.views import views
+from .Website.auth import auth
+from .Website.models import User, Post, Comment, Like
 
 def create_database(app):
         if not path.exists("website/" + DB_NAME):

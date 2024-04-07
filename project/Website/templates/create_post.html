@@ -1,0 +1,23 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+Create a Post
+{% endblock %}
+
+{% block body %}
+<div align="center">
+    <h1>Express your ideas</h1>
+    <br>
+    <form method="POST">
+        <div class="field">
+          <div class="control">
+            <input class="post-input is-focused" name="title" placeholder="Title of the Post" type="text">
+          </div>
+            <div class="control">
+              <textarea name="text" id="text" class="textarea" type="text" placeholder="Write a Blog Post"></textarea>
+            </div>
+          </div>
+        <button class="btn btn-success" type="submit" class="is-primary">Post</button>
+    </form>
+</div>
+{% endblock %}

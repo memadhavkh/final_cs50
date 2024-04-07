@@ -1,0 +1,61 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Register
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <div class="left">
+      <h1>A Grand Welcome to all of you 🎊</h1>
+      <h4>
+        Weekly blog with content ranging from coding, development, data
+        structures and algorithms , life , spirituality and many more.
+      </h4>
+    </div>
+    <div class="right">
+      <h2>Join Us!</h2>
+        <form class="loginform" method="post" >
+          
+          <input
+            type="text"
+            name="username"
+            id="username"
+            class="username"
+            placeholder="Username"
+          /><br />
+          
+          <input
+            type="text"
+            name="email"
+            id="email"
+            class="email"
+            placeholder="Email"
+          /><br />
+          
+          <input
+            type="password"
+            name="password1"
+            id="password1"
+            class="password1"
+            placeholder="Password"
+          /><br />
+          
+          <input
+            type="password"
+            name="password2"
+            id="password2"
+            class="password2"
+            placeholder="Confirm Password"
+          /><br />
+          
+            <button type="submit" class="btn">Register</button>              
+          
+          
+        </form>
+        <p class="btn-1"> Already a Member?        
+            <a href="login" class="btn-1">Login</a>
+        </p>
+    </div>
+  </div>
+{% endblock %}

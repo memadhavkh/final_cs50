@@ -1,0 +1,155 @@
+
+/* layout */
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+    position: fixed;
+}
+
+.footer {
+	position: fixed;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #1abc9c;
+    padding: 1% 0%;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+    color: #fff;
+}
+
+/* Login */
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.left{
+    width: 50%;
+    height: 100%;
+    padding: 5%;
+}
+.right{
+    width: 50%;
+    height: 100%;
+    padding: 5%;
+}
+
+input{
+    width: 100%;
+    margin-top: 5%;
+    padding: 1.5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn{
+    padding: 3% 6% 3% 6%;
+    margin: 5% 40% 0;
+    color: white;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    background-color: #1cc27d;
+    cursor: pointer;
+}
+.btn-1{
+    background-color: white;
+    color:black;
+    border: none;
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    margin-top: 1rem;
+
+}
+.post-input{
+    border: 1px solid hsl(217, 71%, 53%);
+    margin-bottom: 1em;
+}
+.textarea{
+    border: 1px solid hsl(217, 71%, 53%);
+}
+
+/* card */
+
+.card{
+    margin: 2%;
+    padding: 5%;
+    width: 100%;
+    border: solid 2px black ;
+}
+.card :hover{
+    border: solid 1px #1abc9c;
+}
+.card-header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.card-footer{
+    display: flex;
+    flex-direction: column;
+}
+.card-header :hover{
+    border: none;
+}
+.card-footer :hover{
+    border: none;
+}
+.card-content :hover{
+    border: none;
+}
+
+/* Comment */
+.comment-form{
+    width: 100%;
+}
+.comment{
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+.comment-btn{
+    width: 20%;
+    align-self: center;
+    margin: 0 40%;
+}
+.comment-card{
+    width: 100%;
+    margin-top: 1em;
+    text-align: center;
+}
+.card-text{
+    width: 100%;
+}
+.comment-width{
+    width: 70%;
+    text-align: left;
+    float: left;
+}
+.btn-group{
+    width: 4%;
+}
+.delete_comment_button{
+    border: none; 
+    cursor: pointer;
+}
+/* Like*/
+.card-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.like{
+    cursor: pointer;
+}

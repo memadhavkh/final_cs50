@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+
+
+{% block title %}
+Login
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <div class="left">
+      <h1>Glad to see you back 🙌</h1>
+      <h4>
+        Weekly blog with content ranging from coding, development, data
+        structures and algorithms , life , spirituality and many more.
+      </h4>
+    </div>
+    <div class="right">
+      <h2>Welcome Back to the Pool of learning!</h2>
+        <form class="loginform" method="post">
+                    
+          <input
+            type="text"
+            name="email"
+            id="email"
+            class="email"
+            placeholder="Email"
+          /><br />
+          
+          <input
+            type="password"
+            name="password"
+            id="password"
+            class="password"
+            placeholder="Password"
+          /><br />
+                    
+            <button type="submit" class="btn">Login</button>              
+          
+          
+        </form>
+        <p class="btn-1">
+            New to the community? <a href="/register" class="btn-1">Sign Up</a>
+        </p>
+    </div>
+  </div>
+{% endblock %}

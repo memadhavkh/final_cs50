@@ -36,7 +36,7 @@ def load_user(id):
     # session is a temporary storage , generally for 30 days, it is stored. Then , that session data is dumped
 
 if __name__ == "__main__":
-    app.run()
+    app.run(host='0.0.0.0', debug=True)
     
     
 
